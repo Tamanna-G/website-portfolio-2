@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Me!</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    </head>
+    <body>
+      <!-- Header including the logo and the main navigation -->
+      <header class="page-header">
+        <img src="img/portfolio_logo.svg" alt="Tamanna Gulati Developer Logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            </li>
+            <li role="presentation">
+              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+            </li>
+            <li role="presentation">
+                <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+              </li>
+          </ul>
+        </nav>
+      </header>
+          <div>
+            <h1> Contact </h1>
+          </div>
+          <br>
+          <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-mail: </label>
+              <input type="email" id="contact-email" required>
+            <label class="standard-label" for="contact-tel">Telephone: </label>
+              <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <label class="standard-label">Message: </label>
+              <textarea maxlength="240"required></textarea>
+              <input type="submit" value="Send message">
+          </form>
+          <br>
+          <div>
+            Tamanna Gulati<br>
+            <br>
+            <a href="mailto:tamanna.gulati.625@gmail.com">Contact me!</a><br>
+            <br>
+            Tel <a href="tel:+1 630 991 1289">+1 630 991 1289</a><br>
+            Skype <a href="skype:hello.tamanna"> hello.tamanna</a><br>
+            <a href="mailto:tamanna.gulati.625@gmail.com">tamanna.gulati.625@gmail.com</a><br>
+          </div>
+          <br>
+          <br>
+          <footer class="page-footer">
+            <p>You can find me on</p>
+              <div class="social-media">
+                <!-- Github logo -->
+                <img src="img/github_icon.svg" alt="github">
+                <!-- Twitter logo -->
+                <img src="img/twitter_icon.svg" alt="twitter">
+                <!-- LinkedIn logo -->
+                <img src="img/linkedin_icon.svg" alt="linkedin">
+              </div>
+          </footer>
+          <script src="js/tota11y.min.js"></script>
+        </body>
+</html>
